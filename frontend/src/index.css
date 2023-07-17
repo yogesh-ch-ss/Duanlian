@@ -1,0 +1,139 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  /* --primary: #1aac83; */
+  /* Chartreuse */
+  --primary: #7FFF00;
+  /* --error: #e7195a; */
+  --error: #ff2222;
+  --general: #aaaaaa;
+  --subheading: #ddd;
+}
+body {
+  /* background: #f1f1f1; */
+  background: #222022;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  /* background: #fff; */
+  background: #0e0e0e;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  /* color: #333; */
+  /* color: #ccc; */
+  text-decoration: none;
+  /* display: flex;
+  flex-direction: row; */
+}
+/* header span {
+  color: var(--primary);
+  font-size: 10px;
+} */
+header h1 {
+  color: var(--primary);
+  margin-bottom: 0px;
+}
+header h4 {
+  color: var(--subheading);
+  margin: 5px 0px;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+.workout-details {
+  /* background: #fff; */
+  background: #0e0e0e;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  /* box-shadow: 2px 2px 5px rgba(0,0,0,0.05); */
+  box-shadow: 0px 0px 5px rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
+.workout-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.workout-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--general);
+}
+.workout-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  /* background: #f1f1f1; */
+  background: #222022;
+  padding: 6px;
+  border-radius: 50%;
+  /* color: #333; */
+  color: #ccc;
+}
+
+/* new workout form */
+label, input {
+  display: block;
+  color: var(--general);
+}
+.create h3 {
+  color: var(--subheading);
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  /* border: 1px solid #fff; */
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #0e0e0e;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  /* color: #fff; */
+  color: #222022;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 550;
+}
+div.error {
+  padding: 10px;
+  /* background: #ffefef; */
+  background: #270000;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 5px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
