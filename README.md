@@ -1,5 +1,5 @@
 # Duanlian
-## Personal Workout Tracker
+### Personal Workout Tracker
 
 Duanlian - Exercise in Chinese.
 
