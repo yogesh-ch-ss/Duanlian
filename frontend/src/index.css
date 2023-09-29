@@ -19,7 +19,7 @@ body {
 }
 header {
   /* background: #fff; */
-  background: #0e0e0e;
+  background: #121212;
 }
 header .container {
   max-width: 1400px;
@@ -63,7 +63,7 @@ header h4 {
 }
 .workout-details {
   /* background: #fff; */
-  background: #0e0e0e;
+  background: #121212;
   border-radius: 4px;
   margin: 20px auto;
   padding: 20px;
